@@ -137,7 +137,7 @@ g.selectAll("circle")
         d3.select(this)
             .transition()
             .duration(500)
-            .attr("fill-opacity",0.3)
+            .attr("fill-opacity",0.7)
 
         d3.selectAll(".info")
             .remove()
