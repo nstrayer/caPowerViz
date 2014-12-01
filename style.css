@@ -1,0 +1,42 @@
+#intro {
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px #888888;
+  font-family: optima;
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-radius: 25px;
+  padding:10px;
+}
+
+#intro h1 {
+  text-align: center;
+}
+svg {
+  position: fixed;
+  top: 0;
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: grey;
+}
+
+.hidden {
+  display: none;
+}
+
+.blurred {
+    -webkit-filter: blur(5px);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+}

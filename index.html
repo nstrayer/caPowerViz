@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+
+
+<div id = "visaulization" class = "blurred">
+</div>
+<div id = "intro">
+	<h1>Where does California get its power?</h1>
+	<p>When you flip on a light switch in your house most likely you don't pay too much thought to where that electricity came from, it just works. If someone handed you a hose, however, and told you to drink from it, you probably think about where the water came from. <br> <br>
+	Switching on a light or plugging in your iphone is like drinking from a hose, a long thin wire of a hose that transfers electrons instead of large H20 molecules, but a hose none-the-less. <br> <br>
+	Let's investigate the well from which it came.
+
+	<h3>How to use</h3>
+	<ul>
+		<li>Hover over the legend to see the dataset filtered by that type of powerplant.</li>
+		<li>Hover over a specific plant to see details about that plant.</li>
+		<li>Try and find meaningful patterns in the data, do you see banded regions? If so, what would cause them?</li>
+	</ul>
+
+	<h3>Resources:</h3>
+	<ul>
+		<li>Dataset: <a href = "http://www.energyalmanac.ca.gov/powerplants/"> California Energy Almanac </a> </li>
+		<li><a href = "http://d3js.org/"> d3.js </a></li>
+	</ul>
+
+	<h3>Things to think about:</h3>
+	<p> I chose the colors for the different types of plants arbitrarily, but in doing so it made me realize how easy it is to inject personal biases into something as innocent as a simple data visualization. If I had chosen a bring cheery color like pink light blue for coal perhaps that would have given it a positive connotation compared to the drab black I gave it instead. <br><br>
+	Ultimately, I think that it is the visualization designer's resposibility to keep the power they have in presentation in mind and wield it responsibly. </p>
+	<p id = "continueText"><strong>Click here to continue on to the visualization!</strong>
+	</p>
+
+
+
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53965157-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
